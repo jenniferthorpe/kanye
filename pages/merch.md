@@ -1,7 +1,7 @@
 ---
 layout: merch
 title: "Kanye Merch"
-permalink: /pages/merch
+permalink: /merch
 ---
 
 <h1>Kanye West Tour Merch</h1>
@@ -14,7 +14,7 @@ permalink: /pages/merch
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block img-carousel" src="assets/images/wyoming-merch.png" alt="First slide">
+      <img class="d-block img-carousel" src="/assets/images/wyoming-merch.png" alt="First slide">
     </div>
     <div class="carousel-item">
       <img class="d-block img-carousel" src="/assets/images/orange.png" alt="Second slide">
