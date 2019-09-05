@@ -1,6 +1,7 @@
 ---
 layout: merch
 title: "Kanye Merch"
+permalink: /pages/merch
 ---
 
 <h1>Kanye West Tour Merch</h1>
