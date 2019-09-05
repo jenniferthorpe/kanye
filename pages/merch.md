@@ -1,19 +1,10 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>Kanye Merch - </title>
-    <link rel="stylesheet" href="/assets/css/main.css">
-  </head>
-  <body>
-    
-<nav>
-    <a href="/index.md">Home</a>
-    <a href="/index.md">Merch</a>
-    <a href="/index.md">Church</a>
-</nav>
-    <h1>Kanye West Tour Merch</h1>
+---
+layout: default
+title: "Kanye Merch"
+
+---
+
+<h1>Kanye West Tour Merch</h1>
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -23,13 +14,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block img-carousel" src="assets/images/wyoming-merch.png" alt="First slide" />
+      <img class="d-block img-carousel" src="assets/images/wyoming-merch.png" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block img-carousel" src="/assets/images/orange.png" alt="Second slide" />
+      <img class="d-block img-carousel" src="/assets/images/orange.png" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block img-carousel" src="/assets/images/beige.png" alt="Third slide" />
+      <img class="d-block img-carousel" src="/assets/images/beige.png" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -45,7 +36,7 @@
         <div class="container flex-cards">
             <div class="card">
                 <figure class="card-header">
-                    <img src="/assets/images/beige.png" alt="pic 3" />
+                    <img src="/assets/images/beige.png" alt="pic 3">
                 </figure>
                 <div class="card-inner">
                     <h2>Beige Hoodie</h2>
@@ -54,7 +45,7 @@
             </div>
             <div class="card">
                 <figure class="card-header">
-                    <img src="/assets/images/orange.png" alt="pic 3" />
+                    <img src="/assets/images/orange.png" alt="pic 3">
                 </figure>
                 <div class="card-inner">
                     <h2>Orange Hoodie</h2>      
@@ -63,7 +54,7 @@
             </div>  
             <div class="card">
                 <figure class="card-header">
-                    <img src="/assets/images/wyoming-merch.png" alt="pic 3" />
+                    <img src="/assets/images/wyoming-merch.png" alt="pic 3">
                 </figure>
                 <div class="card-inner">
                     <h2>Black Hoodie</h2>      
@@ -72,7 +63,3 @@
             </div>   
         </div>  
 </section>
-
-    <footer>Copyright © Kanye West</footer>
-  </body>
-</html>

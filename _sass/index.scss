@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+}
+
+.header-wrapper {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.bgCover {
+  background: url(/assets/images/kanye_red.jpg) no-repeat center;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+  animation-name: header;
+  animation-duration: 10s;
+}
+
+@keyframes header {
+  0% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.block-album {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .block-album-bg {
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    display: flex;
+  }
+}
+
+.new-album-info {
+  $new-album: ".new-album-info div";
+  font-size: 3em;
+  $sum: 10;
+
+  @function addMargin($i, $multiplyWith) {
+    @each $div in $new-album {
+      $sum: $sum + $i * $multiplyWith;
+      @return $sum;
+    }
+  }
+  margin: addMargin(10, 5) * 1px;
+}
