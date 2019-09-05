@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: merch
 title: "Kanye Merch"
-
 ---
 
 <h1>Kanye West Tour Merch</h1>
@@ -62,4 +61,35 @@ title: "Kanye Merch"
                 </div>
             </div>   
         </div>  
+</section>
+<section id="projects" class="container flex-column page-section">
+        <div class="container flex-cards">
+            <div class="card">
+                <figure class="card-header">
+                    <img src="/assets/images/yeezy-beige.png" alt="pic 3">
+                </figure>
+                <div class="card-inner">
+                    <h2>Yeezy 350</h2>      
+                     <p>$400</p>
+                </div>
+            </div>  
+               <div class="card">
+                <figure class="card-header">
+                    <img src="/assets/images/yeezy-black.png" alt="pic 3">
+                </figure>
+                <div class="card-inner">
+                    <h2>Yeezy 350</h2>      
+                     <p>$400</p>
+                </div>
+            </div> 
+               <div class="card">
+                <figure class="card-header">
+                    <img src="/assets/images/yeezy-stripe.png" alt="pic 3">
+                </figure>
+                <div class="card-inner">
+                    <h2>Yeezy 350</h2>      
+                     <p>$400</p>
+                </div>
+            </div> 
+      </div>  
 </section>
