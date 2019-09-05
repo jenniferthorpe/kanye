@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss",
+		"_sass/main.scss",
+		"_sass/index.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n@import \"index\";\n",
+		"$backgroundColor: #ffffff;\n$bodyColor: #000000;\n$bodyFont: -apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";\n\nbody {\n  background: $backgroundColor;\n  color: $bodyColor;\n  font-family: $bodyFont;\n}\n",
+		"body {\r\n  margin: 0px;\r\n}\r\n\r\n.header-wrapper {\r\n  height: 100vh;\r\n  width: 100vw;\r\n  overflow: hidden;\r\n}\r\n.bgCover {\r\n  background: url(/assets/images/kanye_red.jpg) no-repeat center;\r\n  background-attachment: fixed;\r\n  height: 100vh;\r\n  width: 100vw;\r\n  animation-name: header;\r\n  animation-duration: 10s;\r\n}\r\n\r\n@keyframes header {\r\n  0% {\r\n    transform: scale(1.2, 1.2);\r\n  }\r\n  100% {\r\n    transform: scale(1, 1);\r\n  }\r\n}\r\n\r\n.block-album {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n\r\n  .block-album-bg {\r\n    overflow: hidden;\r\n    width: 500px;\r\n    height: 500px;\r\n    display: flex;\r\n  }\r\n}\r\n\r\n.new-album-info {\r\n  $new-album: \".new-album-info div\";\r\n  font-size: 3em;\r\n  $sum: 10;\r\n\r\n  @function addMargin($i, $multiplyWith) {\r\n    @each $div in $new-album {\r\n      $sum: $sum + $i * $multiplyWith;\r\n      @return $sum;\r\n    }\r\n  }\r\n  margin: addMargin(10, 5) * 1px;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "ACIA,AAAA,IAAI,CAAC,EACH,UAAU,EALM,OAAO,EAMvB,KAAK,EALK,OAAO,EAMjB,WAAW,EALF,aAAa,EAAC,kBAAkB,EAAC,UAAU,EAAC,SAAS,EAAC,KAAK,EAAC,UAAU,EAAC,mBAAmB,EAAC,gBAAgB,EAAC,iBAAiB,GAMvI;;ACRD,AAAA,IAAI,CAAC,EACH,MAAM,EAAE,GAAG,GACZ;;AAED,AAAA,eAAe,CAAC,EACd,MAAM,EAAE,KAAK,EACb,KAAK,EAAE,KAAK,EACZ,QAAQ,EAAE,MAAM,GACjB;;AACD,AAAA,QAAQ,CAAC,EACP,UAAU,EAAE,iCAAiC,CAAC,SAAS,CAAC,MAAM,EAC9D,qBAAqB,EAAE,KAAK,EAC5B,MAAM,EAAE,KAAK,EACb,KAAK,EAAE,KAAK,EACZ,cAAc,EAAE,MAAM,EACtB,kBAAkB,EAAE,GAAG,GACxB;;AAED,UAAU,CAAV,MAAU,GACR,EAAE,GACA,SAAS,EAAE,eAAe;EAE5B,IAAI,GACF,SAAS,EAAE,WAAW;;AAI1B,AAAA,YAAY,CAAC,EACX,OAAO,EAAE,IAAI,EACb,cAAc,EAAE,MAAM,EACtB,WAAW,EAAE,MAAM,GAQpB;;AAXD,AAKE,YALU,CAKV,eAAe,CAAC,EACd,QAAQ,EAAE,MAAM,EAChB,KAAK,EAAE,KAAK,EACZ,MAAM,EAAE,KAAK,EACb,OAAO,EAAE,IAAI,GACd;;AAGH,AAAA,eAAe,CAAC,EAEd,SAAS,EAAE,GAAG,EASd,MAAM,EAAE,IAAsB,GAC/B"
+}

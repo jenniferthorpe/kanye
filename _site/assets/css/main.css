@@ -1,0 +1,18 @@
+body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+
+body { margin: 0px; }
+
+.header-wrapper { height: 100vh; width: 100vw; overflow: hidden; }
+
+.bgCover { background: url(/assets/images/kanye_red.jpg) no-repeat center; background-attachment: fixed; height: 100vh; width: 100vw; animation-name: header; animation-duration: 10s; }
+
+@keyframes header { 0% { transform: scale(1.2, 1.2); }
+  100% { transform: scale(1, 1); } }
+
+.block-album { display: flex; flex-direction: column; align-items: center; }
+
+.block-album .block-album-bg { overflow: hidden; width: 500px; height: 500px; display: flex; }
+
+.new-album-info { font-size: 3em; margin: 60px; }
+
+/*# sourceMappingURL=main.css.map */
