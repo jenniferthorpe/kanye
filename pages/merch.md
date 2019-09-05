@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Kanye Merch"
+
 ---
 
 <h1>Kanye West Tour Merch</h1>
