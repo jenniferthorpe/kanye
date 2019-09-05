@@ -6,10 +6,14 @@
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
-  <body>
+  <body style="margin-top: 0px;">
 
-
-      {%include nav.html%}
+    <nav style="margin-top: 0px;">
+      <a href="/index.md">Home</a>
+      <a href="/index.md">Merch</a>
+      <a href="/index.md">Church</a>
+  </nav>
+  
       {%include indexHeader.html%}
       {%include newAlbum.html%} 
     {{ content}}
