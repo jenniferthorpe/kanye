@@ -1,0 +1,84 @@
+
+body{
+    background-color: #e7e2bf; 
+}
+.img-carousel{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px; 
+    height: auto; 
+}
+
+#carouselExampleIndicators{
+    width: 50%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h1, h2{
+    text-align: center; 
+    color: #928b61; 
+}
+figure {
+    margin: 0;
+    padding: 0;
+}
+figure a {
+    display: block;
+    line-height: 0;
+}
+.card {
+    background:	#e5dab7;
+    border-radius: 6px;
+    box-shadow: 0px 3px 5px #00000030;
+    transition: transform 150ms ease-in-out;
+}
+.card:hover {
+    transform: scale(1.1, 1.1);
+}
+.card h2 {
+    margin-top: 0;
+}
+.card figure img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.card .card-inner {
+    padding: 1rem 2rem 2rem 2rem;
+}
+.page-section {
+    padding: 3rem;
+}
+.page-section.first-section {
+    margin-top: 5rem;
+}
+.page-section h2 {
+    margin-top: 0;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-cards .card {
+    margin: 0 1rem;
+    flex-basis: 25%;
+    flex-grow: 0;
+}
+.flex-cards .card:first-child {
+    margin-left: 0
+}
+.flex-cards .card:last-child {
+    margin-right: 0
+}
