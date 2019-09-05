@@ -1,0 +1,25 @@
+nav{
+  z-index: 2;
+  position: fixed;
+  text-align: center; 
+  margin-top: 10px; 
+  background-color: #c8c9ac; 
+  opacity: 0.8;
+  margin-top: -30px; 
+  padding: 5px; 
+  width: 100%;  
+}
+  nav a{
+    text-decoration: none; 
+    color: #524D3C; 
+    padding: 14px 10px;
+  }
+  nav a:hover{
+    text-decoration: underline; 
+    color: #928b61; 
+  }
+  nav a:visited{
+    color: #524D3C; 
+  }
+ 
+    
