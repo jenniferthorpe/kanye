@@ -5,19 +5,4 @@ permalink: /church
 ---
 
 
-<h1>Kanye West's sunday services</h1>
-<img src="/assets/images/kanye1.jpg">
-
-<div class ='text1'>It's a weekly service that focuses heavily on music.
-The location varies week to week and can be indoors as well as outdoors.
-The goal is to be able to communicate love effectively through these sessions.
-</div>
-
-<div class='video1'><iframe width="560" height="315" src="https://www.youtube.com/embed/nD0F31hzPeM" frameborder="0"
-     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
-<div class ='text2'>Artist Sia attending one of kanyes sunday services</div>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/e7NANhFMHWo" frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
