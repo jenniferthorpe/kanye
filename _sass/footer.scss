@@ -1,4 +1,21 @@
-footer{
-    text-align: center; 
-    color: #928b61;
+footer {
+  display: flex; 
+  justify-content: space-around;
+  background: linear-gradient(white, grey);
+  padding: 50px; 
+
+  .column{
+    justify-content: space-evenly;  
+
   }
+  img {
+    width: 20px;
+    height: auto;
+  }
+  input{
+    opacity: 0.5;
+  }
+  button{
+    color: #e5dab7; 
+  }
+}
