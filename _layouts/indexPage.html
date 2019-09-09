@@ -9,15 +9,18 @@
   <body style="margin-top: 0px; background-color: #fff !important">
 
     <nav style="margin-top: -28px;" class="class-hide test-nav">
-      <a href="/index.md">Home</a>
-      <a href="/index.md">Merch</a>
-      <a href="/index.md">Church</a>
+        <a href="/">Home</a>
+        <a href="/merch">Merch</a>
+        <a href="/church">Church</a>
   </nav>
 
       {%include indexHeader.html%}
-      {%include newAlbum.html%}
-      {%include tour.html%}
-      {%include video.html%}
+      <div class="absolute">
+
+        {%include newAlbum.html%}
+        {%include tour.html%}
+        {%include video.html%}
+      </div>
     {{ content}}
   </body>
 </html>

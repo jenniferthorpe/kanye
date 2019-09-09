@@ -15,6 +15,7 @@ function parallax() {
     }
 }
 
+
 function isElementInViewport(el) {
     var rect = el.getBoundingClientRect();
 
