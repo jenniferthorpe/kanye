@@ -1,3 +1,19 @@
 <div class="tour">
   <h1>Tour 2019</h1>
+  {% for tour in site.data.tour %}
+  <div class="tour-list">
+    <a href="/#">
+      <div class="country">
+        {{ tour.country }}
+      </div>
+      <div class="date">
+        {{ tour.date }}
+      </div>
+      <div class="venue">
+        {{ tour.venue }}
+      </div>
+      <button>Tickets</button>
+    </a>
+  </div>
+  {% endfor %}
 </div>
