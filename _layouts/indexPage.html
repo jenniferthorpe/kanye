@@ -6,9 +6,9 @@
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
-  <body style="margin-top: 0px;">
+  <body style="margin-top: 0px; background-color: #fff !important">
 
-    <nav style="margin-top: -28px;" class="class-hide">
+    <nav style="margin-top: -28px;" class="class-hide test-nav">
       <a href="/index.md">Home</a>
       <a href="/index.md">Merch</a>
       <a href="/index.md">Church</a>
@@ -17,6 +17,7 @@
       {%include indexHeader.html%}
       {%include newAlbum.html%}
       {%include tour.html%}
+      {%include video.html%}
     {{ content}}
   </body>
 </html>
