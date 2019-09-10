@@ -31,7 +31,7 @@
 </section>
 <section id="projects" class="container flex-column page-section">
     <div class="container flex-cards">
-        <div class="card">
+        <div class="card figure">
             <figure class="card-header">
                 <img src="/assets/images/yeezy-beige.png" alt="pic 3">
             </figure>
@@ -41,7 +41,7 @@
             </div>
         </div>  
            <div class="card">
-            <figure class="card-header">
+            <figure class="card-header figure">
                 <img src="/assets/images/yeezy-black.png" alt="pic 3">
             </figure>
             <div class="card-inner">
@@ -50,7 +50,7 @@
             </div>
         </div> 
            <div class="card">
-            <figure class="card-header">
+            <figure class="card-header figure">
                 <img src="/assets/images/yeezy-stripe.png" alt="pic 3">
             </figure>
             <div class="card-inner">
