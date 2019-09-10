@@ -38,8 +38,6 @@ body {
 }
 
 .header-wrapper {
-  // height: 200vh;
-  // width: 100vw;
   max-width: 100%;
   overflow: hidden;
 }
@@ -51,19 +49,7 @@ body {
   height: 380vh;
   width: 100vw;
   max-width: 100%;
-  // animation-name: header;
-  // animation-duration: 10s;
-  // transform: scale(1, 1);
 }
-
-// @keyframes header {
-//   0% {
-//     transform: scale(1.2, 1.2);
-//   }
-//   100% {
-//     transform: scale(1, 1);
-//   }
-// }
 
 .block-album {
   display: flex;
@@ -171,9 +157,4 @@ body {
       border: none;
     }
   }
-}
-
-.test-nav {
-  background-color: transparent !important;
-  background-image: linear-gradient(to left, transparent, #c8c9ac, transparent);
 }

@@ -1,7 +1,7 @@
 
 let background = document.querySelector(".bgCover");
 function incOpacity() {
-    let start = window.innerHeight;
+    let start = window.innerHeight + 3500;
 
     let opacity = 1 - window.scrollY / start;
     background.style.opacity = opacity;
@@ -15,10 +15,3 @@ if (window.addEventListener) {
     addEventListener('scroll', incOpacity, false);
 }
 
-
-function isElementInViewport(el) {
-    var rect = el.getBoundingClientRect();
-    return (
-        rect.top < (window.innerHeight || document.documentElement.clientHeight)
-    );
-}

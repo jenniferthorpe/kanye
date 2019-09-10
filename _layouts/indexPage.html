@@ -8,23 +8,13 @@
   </head>
   <body style="margin-top: 0px; background-color: #fff !important">
 
-    <nav style="margin-top: -28px;" class="class-hide test-nav">
-        <a href="/">Home</a>
-        <a href="/merch">Merch</a>
-        <a href="/church">Church</a>
-  </nav>
-
-  <div class="exit-box">
-  </div>
-  <img src="/assets/images/exitImg.png" alt="" style="display: none" class="exit-img">
-
+  
+      {%include nav.md%}
       {%include indexHeader.html%}
-        <!-- {%include flipCard.html%} -->
-
       {%include newAlbum.html%}
-        {%include tour.html%}
-        {%include video.html%}
+      {%include tour.html%}
+      {%include video.html%}
+      {%include footer.md%}
     {{ content}}
   </body>
-  <script src="/assets/mouseExit.js"></script>
 </html>
