@@ -32,6 +32,9 @@ h2 {
   border-radius: 6px;
   box-shadow: 0px 3px 5px #00000030;
   transition: transform 150ms ease-in-out;
+  button{
+    color: #e5dab7; 
+  }
 }
 .card:hover {
   transform: scale(1.1, 1.1);
@@ -39,12 +42,14 @@ h2 {
 .card h2 {
   margin-top: 0;
 }
-.card figure img {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  border-top-right-radius: 6px;
-  border-top-left-radius: 6px;
+.card {
+  figure img{
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      border-top-right-radius: 6px;
+      border-top-left-radius: 6px;
+  }
 }
 .card .card-inner {
   padding: 1rem 2rem 2rem 2rem;

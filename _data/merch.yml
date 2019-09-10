@@ -1,0 +1,24 @@
+- image: /assets/images/beige.png
+  title: Beige Hoodie
+  price: $200
+  id:    one
+- image: /assets/images/orange.png
+  title: Orange Hoodie
+  price: $200
+  id:     two
+- image: /assets/images/wyoming-merch.png
+  title: Black Hoodie
+  price: $200
+  id:     three
+- image: /assets/images/yeezy-beige.png
+  title: Yeezy 350
+  price: $400
+  id:     four
+- image: /assets/images/yeezy-black.png
+  title: Yeezy 350
+  price: $400
+  id:     five
+- image: /assets/images/yeezy-stripe.png
+  title: Yeezy 350
+  price: $400
+  id:     six
