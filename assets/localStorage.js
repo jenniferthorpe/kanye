@@ -10,7 +10,7 @@ for (let i = 0; i < el.length; i++) {
       parsed.push(e.target.id); 
       localStorage.setItem('items', JSON.stringify(parsed)); 
 
-      let num = document.getElementById('anna'); 
+      let num = document.getElementById('num'); 
       num.innerHTML = parsed.length; 
    })
 }
