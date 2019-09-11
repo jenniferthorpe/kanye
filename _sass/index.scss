@@ -4,39 +4,6 @@ body {
   margin: 0px;
 }
 
-.exit-box {
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  width: 250px;
-  height: 100px;
-}
-.exit-img {
-  position: fixed;
-  width: 50%;
-  left: 28%;
-  animation-name: exit-face;
-  animation-duration: 1s;
-}
-
-@keyframes exit-face {
-  0% {
-    transform: scale(1);
-  }
-  30% {
-    transform: scale(1.2);
-  }
-  50% {
-    transform: scale(1);
-  }
-  70% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
 .header-wrapper {
   max-width: 100%;
   overflow: hidden;
@@ -46,7 +13,7 @@ body {
     no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
+  height: 380vh;
   width: 100vw;
   max-width: 100%;
 }
@@ -58,7 +25,7 @@ body {
   width: 100vw;
   max-width: 100%;
   height: 96vh;
-  // margin-top: -280vh;
+  margin-top: -280vh;
   position: absolute;
   font-size: 1em;
 
@@ -66,13 +33,21 @@ body {
     overflow: hidden;
     width: 500px;
     height: auto;
+    -webkit-box-shadow: 0px 0px 29px 1px rgba(168, 168, 168, 0.6);
+    -moz-box-shadow: 0px 0px 29px 1px rgba(168, 168, 168, 0.6);
+    box-shadow: 0px 0px 29px 1px rgba(168, 168, 168, 0.6);
   }
 }
 
 .new-album-info {
   color: #090808;
   $new-album: ".new-album-info div";
-  font-size: 3em;
+  font-size: 5em;
+  position: relative;
+  top: -110px;
+  background-color: rgba(231, 226, 191, 0.2);
+  width: 100vw;
+  text-align: center;
   $sum: 10;
 
   @function addMargin($i, $multiplyWith) {
@@ -82,6 +57,22 @@ body {
     }
   }
   margin: addMargin(10, 5) * 1px;
+
+  div {
+    position: relative;
+    animation-name: textAni;
+    animation-direction: 2s;
+  }
+}
+
+@keyframes textAni {
+  0% {
+    right: 0px;
+  }
+  100% {
+    right: 100px;
+    // text-align: center;
+  }
 }
 
 .showing {
@@ -119,14 +110,14 @@ body {
 
 .tour {
   font-family: "Teko", sans-serif;
-  min-height: 100vh;
+  min-height: 94vh;
   max-width: 100%;
   color: #090808;
   display: flex;
   flex-direction: column;
-  // margin: 2% 8%;
-  // margin-top: -180vh;
-  margin: 57% 8% 0%;
+  margin: 2% 14%;
+  margin-top: -180vh;
+  position: relative;
   h1 {
     padding-top: 80px;
     color: #090808;
@@ -140,6 +131,10 @@ body {
 
     &:nth-child(odd) {
       background: #c8c9ac;
+    }
+
+    &:nth-child(2) {
+      border-top: 1px solid #090808;
     }
 
     div {
@@ -162,6 +157,15 @@ body {
 .video-block,
 .quote-block {
   text-align: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+.quote-block {
+  border: double 9px;
+  width: 40%;
+  position: relative;
+  margin: 55px auto 65px;
 }
 .youTube-iframe {
   display: inline-block;
@@ -174,9 +178,11 @@ body {
 }
 
 .quote-btn {
-  height: 50px;
+  height: 60px;
   background-color: #928b61;
   border: none;
-  border-radius: 2px;
-  margin-bottom: 50px;
+  border-radius: 6px;
+  margin-bottom: 25px;
+  width: 210px;
+  font-size: 1em;
 }
