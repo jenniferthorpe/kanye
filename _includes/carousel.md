@@ -1,5 +1,6 @@
 
-<h1 class="header">Kanye West Tour Merch</h1> <i class="fa fa-shopping-cart cart" aria-hidden="true"><span id="anna"></span></i>
+<h1 class="header">Kanye West Tour Merch</h1> 
+<i class="fa fa-shopping-cart cart" aria-hidden="true"> <span class="num" id="num"></span> </i>
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
