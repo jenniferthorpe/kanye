@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Teko:400,700&display=swap");
-
 body {
   margin: 0px;
+  font-family: "Hepta Slab", serif;
 }
 
 .header-wrapper {
@@ -109,7 +108,6 @@ body {
 }
 
 .tour {
-  font-family: "Teko", sans-serif;
   min-height: 94vh;
   max-width: 100%;
   color: #090808;
@@ -144,6 +142,8 @@ body {
       width: 25%;
     }
     button {
+      font-family: "Hepta Slab", serif;
+
       background-color: #e7e2bf;
       padding: 10px 20px;
       border: none;
