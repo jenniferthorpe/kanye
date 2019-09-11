@@ -1,5 +1,4 @@
   .bodychurch {
-    /*background-color: #e7e2bf; */
     color: #928b61;
     font-family: 'Lato', sans-serif;
     font-family: 'Hepta Slab', serif; 
@@ -22,10 +21,10 @@
 
     .h1-color{
       color: Gray;
+      font-weight: bold;
     }
 
     .header-background{
-      /*background-image: url(/assets/images/header-img4.jpg);*/
       background-image: linear-gradient(to bottom right,  #928b61, beige);
       margin-top: 2px;
     }
@@ -35,7 +34,7 @@
     }
     
     .text2{
-      color: #928b61;
+      color: black;
       margin-top: 2%;
       margin-bottom: 2%;
       margin-left: 40%;
@@ -50,6 +49,7 @@
 
     .kanye-spotify{
       margin-top: 2%;
+      margin-bottom: 2%;
     }
 
     
