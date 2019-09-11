@@ -1,6 +1,6 @@
-{% for merch in site.data.merch %}
 <section class="container flex-cards page-section">
-    <div class="container flex-cards">
+{% for merch in site.data.merch %}
+    <div class="wrap flex-cards">
         <div class="card">
             <figure class="card-header">
             <img src="{{merch.image}}">
@@ -10,7 +10,7 @@
                 <p>{{merch.price}}</p>
                 <button class="buy" id="{{merch.id}}">Buy</button>
             </div>
-    </div>
+        </div>
 </div>
-</section>
 {% endfor %}
+</section>
