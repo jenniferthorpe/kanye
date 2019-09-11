@@ -1,5 +1,5 @@
 ---
-layout: indexPage
+layout: index
 title: "Kanye West"
 permalink: /
 ---
