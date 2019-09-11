@@ -1,7 +1,7 @@
 
 let background = document.querySelector(".bgCover");
 function incOpacity() {
-    let start = window.innerHeight + 3500;
+    let start = window.innerHeight + 700;
 
     let opacity = 1 - window.scrollY / start;
     background.style.opacity = opacity;
