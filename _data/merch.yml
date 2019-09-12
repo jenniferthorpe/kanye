@@ -1,13 +1,13 @@
 - image: /assets/images/beige.png
-  title: Beige Hoodie
+  title: Hoodie
   price: $200
   id:    one
 - image: /assets/images/orange.png
-  title: Orange Hoodie
+  title: Hoodie
   price: $200
   id:     two
 - image: /assets/images/wyoming-merch.png
-  title: Black Hoodie
+  title: Hoodie
   price: $200
   id:     three
 - image: /assets/images/yeezy-beige.png
